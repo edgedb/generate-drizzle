@@ -1,0 +1,12 @@
+[package]
+name = "generate-drizzle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+edgedb-protocol = "0.6.1"
+edgedb-tokio = "0.5.1"
+itertools = "0.13.0"
+tokio = "1.41.1"
+uuid = "1.11.0"
